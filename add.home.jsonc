@@ -1,0 +1,283 @@
+
+
+//FLEX LAYOUT ROW-7-CHILDREN----------------------------------------------------------------------------
+"flex-layout.row#inside7":{
+  "children":["flex-layout.col#inside7helper"],
+  "props":{
+    "blockClass": "inside7"
+  }
+},
+
+"flex-layout.col#inside7helper": {
+  "children": [
+    "flex-layout.row#inside7helper-text1",
+    "flex-layout.row#inside7helper-text2",
+    "info-card#inside7"
+  ],
+  "props": {
+  }
+},
+
+
+
+"flex-layout.row#inside7helper-text1":{
+  "children": [
+    "rich-text#r7-1"
+  ]
+},
+
+"flex-layout.row#inside7helper-text2":{
+  "children": [
+    "rich-text#r7-2-1",
+    "rich-text#r7-2-2",
+    "rich-text#r7-2-3",
+    "rich-text#r7-2-4",
+    "rich-text#r7-2-5",
+    "rich-text#r7-2-6",
+    "rich-text#r7-2-7"
+  ]
+},
+
+"rich-text#r7-1": {
+  "props": {
+    "blockClass": "r7-1",
+    "text": "## Apoio à inovação do cliente",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-1": {
+  "props": {
+    "blockClass": "r7-2-1",
+    "text": "**Manufatura**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+
+  }
+},
+
+"rich-text#r7-2-2": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Serviços financeiros**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-3": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Fitness**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-4": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Mercado imobiliário**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-5": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Saúde**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-6": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Jogos**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r7-2-7": {
+  "props": {
+    "blockClass": "r7-2",
+    "text": "**Mídia e entretenimento**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"info-card#inside7": {
+  "props": {
+    "id": "info-card-inside7",
+    "isFullModeStyle": true,
+    "textPosition": "left",
+    "imageUrl": "assets/Powering-Innovation-Siemens_HERO-Img-Header-Final.25e9fd15c0bb8c8b100f690f23f35e42704c0716.png",
+    "headline": "SIEMENS",
+    "subhead":"#### Siemens inova em energia, serviços de saúde e manufatura usando a AWS\nSaiba como a Siemens usou a AWS para adaptar sua cultura, incentivar a inovação e impulsionar resultados para seus negócios.\n**Saiba mais »**",
+    "textMode": "rich-text",
+    "callToActionMode": "none",
+    "textAlignment": "center"
+  }
+},
+
+//END OF FLEX LAYOUT ROW-7-CHILDREN----------------------------------------------------------------------------
+
+
+
+
+//FLEX LAYOUT ROW-8-CHILDREN----------------------------------------------------------------------------
+"flex-layout.row#inside8":{
+  "children":["flex-layout.col#inside8helper"],
+  "props":{
+    "blockClass": "inside8"
+  }
+},
+
+"flex-layout.col#inside8helper": {
+  "children": [
+    "flex-layout.row#inside8helper"
+  ],
+  "props": {
+    "marginLeft":9,
+    "marginRight":9
+  }
+},
+
+
+"flex-layout.row#inside8helper": {
+  "children":[
+    "flex-layout.col#r8c1", "flex-layout.col#r8c2", "flex-layout.col#r8c3"
+  ],
+  "props": {
+    "colGap": "2",
+    "colSizing": "equal",
+    "paddingLeft": "18",
+    "paddingRight": "18"
+  }
+},
+
+"rich-text#r8-1": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "## Treinamento e certificação",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"flex-layout.col#r8c1": {
+  "children":
+  [
+    "image#r8c1",
+    "rich-text#r8c1-1",
+    "rich-text#r8c1-2"
+  ],
+  "props": {
+    "marginLeft": "3",
+    "marginRight": "3"
+  }
+},
+
+"image#r8c1":{
+  "props":{
+    "src":"assets/r8-1.png"
+  }
+},
+
+"rich-text#r8c1-1": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "**Pioneirismo em todos os setores**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+"rich-text#r8c1-2": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "A Siemens é uma empresa com mais de 170 anos que começou com uma ideia para melhorar a máquina de telégrafo. Desde sua fundação, a empresa tornou-se uma líder transformadora nos setores de energia, saúde e manufatura.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"flex-layout.col#r8c2": {
+  "children":
+  [
+    "image#r8c2",
+    "rich-text#r8c2-1",
+    "rich-text#r8c2-2"
+  ],
+  "props": {
+    "marginLeft": "3",
+    "marginRight": "3"
+  }
+},
+
+"image#r8c2":{
+  "props":{
+    "src":"assets/r8-2.png"
+  }
+},
+
+"rich-text#r8c2-1": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "**Democratização da inovação**",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#r8c2-2": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "A Siemens incentiva uma cultura de experimentação para descobrir novas oportunidades de negócios e concretizar o valor inexplorado do cliente. A empresa usa a AWS para adotar processos de desenvolvimento mais ágeis, incluindo equipes de desenvolvimento descentralizadas, dados democratizados e métodos de trabalho ao estilo de startups.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"flex-layout.col#r8c3": {
+  "children":
+  [
+    "image#r8c3",
+    "rich-text#r8c3-1",
+    "rich-text#r8c3-2"
+  ],
+  "props": {
+    "marginLeft": "3",
+    "marginRight": "3"
+  }
+},
+
+"image#r8c3":{
+  "props":{
+    "src":"assets/r8-3.png"
+  }
+},
+
+
+"rich-text#r8c3-1": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "**Continuidade de uma tradição de transformação**",
+    "textAlignment":"CENTER",
+    "textPosition":"CENTER"
+  }
+},
+"rich-text#r8c3-2": {
+  "props": {
+    "blockClass": "r8-1",
+    "text": "A transformação cultural da Siemens tem proporcionado resultados comerciais. Esses incluem levar a IoT industrial para as ferrovias e fábricas, desenvolver uma infraestrutura de construção inteligente e utilizar o machine learning em sua plataforma de segurança cibernética.",
+    "textAlignment":"CENTER",
+    "textPosition":"CENTER"
+  }
+},
+
+//END FLEX LAYOUT ROW-8-CHILDREN----------------------------------------------------------------------------

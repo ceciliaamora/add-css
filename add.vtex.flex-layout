@@ -1,0 +1,17 @@
+.flexRow, .flexRowContent {
+  width: 100% !important;
+}
+
+.flexCol--cards-row-2, .flexCol--cards-row-3 {
+  text-align: left !important;
+}
+
+.flexColChild {
+  height: auto !important;
+}
+
+
+.stretchChildrenWidth {
+  width: 100%;
+  padding-top: 5px;
+}
